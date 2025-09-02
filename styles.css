@@ -1,25 +1,26 @@
-body {
-  margin: 0;
-  padding: 5px;
-  background: white;
-}
+    body {
+      margin: 0;
+      padding: 5px;
+      background: white;
+    }
 
-#grid {
-  display: grid;
-  grid-template-columns: repeat(4, 242.5px);
-  grid-template-rows: repeat(5, 124px);
-  gap: 10px;
-}
+    #grid {
+      display: grid;
+      grid-template-columns: repeat(4, 242.5px);
+      grid-template-rows: repeat(5, 124px);
+      gap: 10px;
+    }
 
-#grid > div {
-  background-color: green;
-  color: white;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  padding: 10px;
-}
+    #grid > div {
+      background-color: green;
+      color: white;
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      padding: 10px;
+    }
+
 
 /* Fixing shorthand syntax for Cypress */
 #grid > div:nth-child(1){
