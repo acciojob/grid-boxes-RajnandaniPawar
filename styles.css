@@ -5,12 +5,12 @@
       background: white;
     }
 
-    #grid {
-      display: grid;
-      grid-template-columns: repeat(4, 246.25px); /* fixed width */
-      grid-template-rows: repeat(5, 124px);
-      gap: 5px;
-    }
+#grid {
+  display: grid;
+  grid-template-columns: repeat(4, 242.5px); /* corrected */
+  grid-template-rows: repeat(5, 124px);
+  gap: 10px; /* corrected */
+}
 
     #grid > div {
       background-color: green;
